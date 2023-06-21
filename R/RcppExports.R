@@ -11,6 +11,14 @@ add_cpp <- function(x, y) {
     .Call(`_pkgrcpp_add_cpp`, x, y)
 }
 
+approx_pi <- function(N) {
+    .Call(`_pkgrcpp_approx_pi`, N)
+}
+
+approx_pi_dq <- function(N) {
+    .Call(`_pkgrcpp_approx_pi_dq`, N)
+}
+
 #' Add the Numbers in a Vector
 #'
 #' Return the sum of a vector of numbers.
