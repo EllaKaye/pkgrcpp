@@ -14,6 +14,7 @@ URL: https://github.com/EllaKaye/pkgrcpp
 BugReports: https://github.com/EllaKaye/pkgrcpp/issues
 LinkingTo: 
     dqrng,
-    Rcpp
+    Rcpp,
+    RcppArmadillo
 Imports: 
     Rcpp
